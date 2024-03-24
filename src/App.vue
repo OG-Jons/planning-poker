@@ -1,5 +1,23 @@
 <script setup lang="ts">
 import { RouterView } from 'vue-router'
+import { onMounted } from 'vue'
+// import { client, account } from '@/lib/appwrite'
+
+onMounted(() => {
+
+/*  account.createAnonymousSession().then(
+    (response) => {
+      console.log(response);
+    },
+    (error) => {
+      console.log(error);
+    }
+  );
+
+  client.subscribe('databases.collections.65fbeeff69c03cda4713.documents', (response) => {
+    console.log(response)
+  })*/
+})
 </script>
 
 <template>

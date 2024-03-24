@@ -9,6 +9,12 @@ const router = createRouter({
       name: 'home',
       component: HomeView
     },
+    // Route that has field roomID (e.g. /123)
+      {
+        path: '/:roomID',
+      name: 'room',
+      component: () => import('../views/RoomView.vue')
+    }
   ]
 })
 
